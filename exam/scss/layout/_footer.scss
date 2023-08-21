@@ -1,0 +1,51 @@
+.footer-logo-text {
+  color: #fff;
+  font-family: Spartan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+.sitenav__list__item__linkf {
+  color: $white-color;
+}
+.footer__a {
+  color: #fff;
+}
+.footer__hr {
+  max-width: 1111px;
+  height: 1px;
+  opacity: 0.1;
+  background: #fff;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+.media-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7.2rem;
+}
+.contents-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.first-content {
+  width: 350px;
+}
+.first-description {
+  color: $white-color;
+  opacity: 0.5;
+}
+.second-content {
+  width: 350px;
+}
+.second-description {
+  color: $white-color;
+  opacity: 0.5;
+}
+.links__list {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}

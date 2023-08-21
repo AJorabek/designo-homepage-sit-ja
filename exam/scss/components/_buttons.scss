@@ -1,0 +1,27 @@
+.btn {
+  width: 100%;
+  max-width: 152px;
+  height: 56px;
+  text-transform: uppercase;
+  color: $dark-grey;
+  letter-spacing: 1;
+  border-radius: 8px;
+  padding-top: 1.8rem;
+  padding-bottom: 1.6rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.dark-btn {
+  background-color: $white-color;
+  color: $dark-grey;
+}
+.dark-btn:hover {
+  background-color: $light-peach-color;
+}
+.light-btn {
+  background-color: $peach-color;
+  color: $white-color;
+}
+.light-btn:hover {
+  background-color: $light-peach-color;
+}

@@ -1,0 +1,122 @@
+.locations {
+  margin-bottom: 16rem;
+}
+.main-locations__wrapper {
+  margin-bottom: 5rem;
+}
+.all-infos-wrapper,
+.all-infos-wrapper-2 {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.location__content__wrapper,
+.location__content__wrapper-2 {
+  width: 100%;
+  max-width: 900px;
+  height: 326px;
+  border-radius: 15px;
+  background: #fdf3f0;
+  padding-left: 9.5rem;
+}
+.location__title,
+.location__title-2 {
+  color: #e7816b;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-top: 8.8rem;
+  margin-bottom: 2.5rem;
+}
+.infos {
+  display: flex;
+  gap: 2rem;
+}
+.first-p {
+  width: 100%;
+  max-width: 255px;
+  height: 78px;
+}
+.second-p {
+  width: 100%;
+  max-width: 255px;
+  height: 78px;
+  margin-right: 1rem;
+}
+.black-text {
+  color: #333136;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.location__title-2 {
+  color: #e7816b;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-top: 8.8rem;
+  margin-bottom: 2.5rem;
+}
+.infos {
+  display: flex;
+  gap: 2rem;
+}
+.first-p-2 {
+  width: 100%;
+  max-width: 255px;
+  height: 78px;
+}
+.black-text {
+  color: #333136;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.second-p-2 {
+  width: 100%;
+  max-width: 255px;
+  height: 78px;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 375px) {
+  .infos {
+    flex-direction: column;
+    margin-right: 10rem;
+    background-color: #fdf3f0;
+  }
+  .first-p,
+  .first-p-2,
+  .second-p,
+  .second-p-2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 783px) {
+  .all-infos-wrapper,
+  .all-infos-wrapper-2 {
+    flex-direction: column-reverse;
+    margin-bottom: 6rem;
+  }
+  .location-img,
+  .location-img-2 {
+    width: 100%;
+    max-width: 689px;
+    height: 326px;
+    margin-top: 5rem;
+  }
+  .location__content__wrapper,
+  .location-img-2 {
+    width: 100%;
+    max-width: 689px;
+    height: 326px;
+  }
+}
